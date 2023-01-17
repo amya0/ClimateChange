@@ -1,0 +1,74 @@
+/*  p{} do the padding stuff so it don't be running far
+    ul{} cut padding at top to align with `p` on top
+*/
+body {
+    font-family:calibri;
+    background-color: rgb(255, 255, 241);
+    font-size: 20px;
+  }
+  
+  h1 {
+    color:white;
+    font-size: 250%;
+    background-color: rgb(0, 107, 73);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 150%;
+    background-color: rgb(103, 241, 158);
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 125%;
+    padding: 0px 30px 0px 30px;
+  }
+
+  p {
+    padding: 0px 50px 0px 50px;
+  }
+
+  ul {
+    margin-left: 50px;
+    margin-top: -15px;
+  }
+  
+  img { /* reminder that CSS comments are made like this */
+    display: block; /* to center img, set margins to auto, display to block!  */
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-width: 60vw;
+  }
+  
+  blockquote {
+    display:flex;
+    width: 75%;
+    color: white;
+    text-decoration-color: white;
+    font-size: 100%;
+    background-color: rgb(0, 107, 73);
+    text-align:center;
+    border-style: outset;
+    border-width: thick;
+    border-radius: 10px;
+    margin: 10px 15px 10px 5px ;
+    padding: 25px;
+  }
+  
+  .Qtion p {
+    font-size:110%;
+    font-family: Calibri;
+    font-weight: bold;
+    background-color: lightgreen;
+  }
+  
+  #rlinkhead {
+    background-color: green
+  }
+  
+  #rlinks {
+    font-family: Georgia;
+    background-color: lightgreen;
+  }
